@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm.session;
+package com.senseisimple.androidterm.session;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -24,12 +24,13 @@ import java.nio.charset.Charset;
 import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CodingErrorAction;
 
+import com.senseisimple.androidterm.TermDebug;
+import com.senseisimple.androidterm.model.Screen;
+import com.senseisimple.androidterm.util.TermSettings;
+import com.senseisimple.androidterm.util.UnicodeTranscript;
+
 import android.util.Log;
 
-import jackpal.androidterm.TermDebug;
-import jackpal.androidterm.model.Screen;
-import jackpal.androidterm.util.TermSettings;
-import jackpal.androidterm.util.UnicodeTranscript;
 
 /**
  * Renders text into a screen. Contains all the terminal-specific knowlege and

@@ -334,7 +334,7 @@ static int register_FileDescriptor(JNIEnv *env)
 }
 
 
-static const char *classPathName = "jackpal/androidterm/Exec";
+static const char *classPathName = "com/senseisimple/androidterm/Exec";
 
 static JNINativeMethod method_table[] = {
     { "createSubprocess", "(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;[I)Ljava/io/FileDescriptor;",

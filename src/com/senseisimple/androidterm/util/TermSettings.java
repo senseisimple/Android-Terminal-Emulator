@@ -14,13 +14,14 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm.util;
+package com.senseisimple.androidterm.util;
+
+import com.senseisimple.androidterm.R;
 
 import android.content.res.Resources;
 import android.content.SharedPreferences;
 import android.view.KeyEvent;
 
-import jackpal.androidterm.R;
 
 /**
  * Terminal emulator settings

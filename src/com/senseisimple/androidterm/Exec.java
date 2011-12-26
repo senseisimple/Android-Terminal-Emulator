@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm;
+package com.senseisimple.androidterm;
 
 import java.io.FileDescriptor;
 

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm.model;
+package com.senseisimple.androidterm.model;
 
-import jackpal.androidterm.session.TermSession;
+import com.senseisimple.androidterm.session.TermSession;
 
 /**
  * Callback to be invoked when a TermSession finishes.

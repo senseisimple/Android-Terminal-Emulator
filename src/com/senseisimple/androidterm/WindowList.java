@@ -14,7 +14,11 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm;
+package com.senseisimple.androidterm;
+
+import com.senseisimple.androidterm.model.UpdateCallback;
+import com.senseisimple.androidterm.session.TermSession;
+import com.senseisimple.androidterm.util.SessionList;
 
 import android.app.ListActivity;
 import android.content.ComponentName;
@@ -33,9 +37,6 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import jackpal.androidterm.model.UpdateCallback;
-import jackpal.androidterm.session.TermSession;
-import jackpal.androidterm.util.SessionList;
 
 public class WindowList extends ListActivity {
     private SessionList sessions;

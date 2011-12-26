@@ -14,16 +14,17 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm.session;
+package com.senseisimple.androidterm.session;
 
 import java.util.Arrays;
+
+import com.senseisimple.androidterm.model.Screen;
+import com.senseisimple.androidterm.model.TextRenderer;
+import com.senseisimple.androidterm.util.UnicodeTranscript;
 
 import android.graphics.Canvas;
 import android.util.Log;
 
-import jackpal.androidterm.model.Screen;
-import jackpal.androidterm.model.TextRenderer;
-import jackpal.androidterm.util.UnicodeTranscript;
 
 /**
  * A TranscriptScreen is a screen that remembers data that's been scrolled. The

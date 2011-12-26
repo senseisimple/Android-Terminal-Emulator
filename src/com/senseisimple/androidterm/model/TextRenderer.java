@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm.model;
+package com.senseisimple.androidterm.model;
 
 import android.graphics.Canvas;
 

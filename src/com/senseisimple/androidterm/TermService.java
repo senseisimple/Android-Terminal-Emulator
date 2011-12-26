@@ -14,7 +14,13 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm;
+package com.senseisimple.androidterm;
+
+import com.senseisimple.androidterm.model.SessionFinishCallback;
+import com.senseisimple.androidterm.model.UpdateCallback;
+import com.senseisimple.androidterm.session.TermSession;
+import com.senseisimple.androidterm.util.ServiceForegroundCompat;
+import com.senseisimple.androidterm.util.SessionList;
 
 import android.app.Service;
 import android.os.Binder;
@@ -25,11 +31,6 @@ import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 
-import jackpal.androidterm.model.SessionFinishCallback;
-import jackpal.androidterm.model.UpdateCallback;
-import jackpal.androidterm.session.TermSession;
-import jackpal.androidterm.util.ServiceForegroundCompat;
-import jackpal.androidterm.util.SessionList;
 
 public class TermService extends Service implements SessionFinishCallback
 {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm.session;
+package com.senseisimple.androidterm.session;
 
 import java.io.FileDescriptor;
 import java.io.FileInputStream;
@@ -28,16 +28,17 @@ import java.nio.charset.CharsetEncoder;
 import java.nio.charset.CodingErrorAction;
 import java.util.ArrayList;
 
+import com.senseisimple.androidterm.Exec;
+import com.senseisimple.androidterm.TermDebug;
+import com.senseisimple.androidterm.model.SessionFinishCallback;
+import com.senseisimple.androidterm.model.UpdateCallback;
+import com.senseisimple.androidterm.util.ByteQueue;
+import com.senseisimple.androidterm.util.TermSettings;
+
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 
-import jackpal.androidterm.Exec;
-import jackpal.androidterm.TermDebug;
-import jackpal.androidterm.model.SessionFinishCallback;
-import jackpal.androidterm.model.UpdateCallback;
-import jackpal.androidterm.util.ByteQueue;
-import jackpal.androidterm.util.TermSettings;
 
 /**
  * A terminal session, consisting of a TerminalEmulator, a TranscriptScreen,

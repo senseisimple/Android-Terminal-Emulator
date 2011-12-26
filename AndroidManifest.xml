@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="jackpal.androidterm"
+    package="com.senseisimple.androidterm"
     android:versionName="1.0.39" android:versionCode="40"
     android:installLocation="internalOnly" >
     <uses-permission android:name="android.permission.INTERNET" />
@@ -19,7 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="TermPreferences"/>
+        <activity android:name="TermPreferences" />
         <activity android:name="WindowList" />
         <service android:name="TermService" />
     </application>

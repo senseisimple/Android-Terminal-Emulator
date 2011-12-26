@@ -33,7 +33,7 @@ https://market.android.com/publish
 
 The Android Publish UI is error prone:
 
-1) Visit https://market.android.com/publish/Home#AppEditorPlace:p=jackpal.androidterm
+1) Visit https://market.android.com/publish/Home#AppEditorPlace:p=com.senseisimple.androidterm
 
 2) Click on the APK files tab
 
@@ -53,7 +53,7 @@ The Android Publish UI is error prone:
 
 10) Verify that Market is serving the new version (check the "What's New" portion.)
 
-https://market.android.com/details?id=jackpal.androidterm
+https://market.android.com/details?id=com.senseisimple.androidterm
 
 # Update the Android Terminal Emulator Wiki
 

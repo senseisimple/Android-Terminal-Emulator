@@ -1,4 +1,4 @@
-package jackpal.androidterm.util;
+package com.senseisimple.androidterm.util;
 
 import android.text.AndroidCharacter;
 

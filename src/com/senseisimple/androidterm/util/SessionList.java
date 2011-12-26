@@ -14,14 +14,15 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm.util;
+package com.senseisimple.androidterm.util;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Collection;
 
-import jackpal.androidterm.model.UpdateCallback;
-import jackpal.androidterm.session.TermSession;
+import com.senseisimple.androidterm.model.UpdateCallback;
+import com.senseisimple.androidterm.session.TermSession;
+
 
 /**
  * An ArrayList of TermSessions which allows users to register callbacks in

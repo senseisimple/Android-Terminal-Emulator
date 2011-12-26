@@ -14,9 +14,17 @@
  * limitations under the License.
  */
 
-package jackpal.androidterm;
+package com.senseisimple.androidterm;
 
 import java.io.IOException;
+
+import com.senseisimple.androidterm.model.TextRenderer;
+import com.senseisimple.androidterm.model.UpdateCallback;
+import com.senseisimple.androidterm.session.TermSession;
+import com.senseisimple.androidterm.session.TerminalEmulator;
+import com.senseisimple.androidterm.session.TranscriptScreen;
+import com.senseisimple.androidterm.util.AndroidCompat;
+import com.senseisimple.androidterm.util.TermSettings;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -46,13 +54,6 @@ import android.view.inputmethod.ExtractedText;
 import android.view.inputmethod.ExtractedTextRequest;
 import android.view.inputmethod.InputConnection;
 
-import jackpal.androidterm.model.TextRenderer;
-import jackpal.androidterm.model.UpdateCallback;
-import jackpal.androidterm.session.TerminalEmulator;
-import jackpal.androidterm.session.TermSession;
-import jackpal.androidterm.session.TranscriptScreen;
-import jackpal.androidterm.util.AndroidCompat;
-import jackpal.androidterm.util.TermSettings;
 
 /**
  * A view on a transcript and a terminal emulator. Displays the text of the
