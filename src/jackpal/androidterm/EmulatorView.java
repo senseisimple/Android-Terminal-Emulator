@@ -1041,30 +1041,30 @@ public class EmulatorView extends View implements GestureDetector.OnGestureListe
 abstract class BaseTextRenderer implements TextRenderer {
     protected int[] mForePaint = {
             0xff000000, // Black
-            0xffcc0000, // Red
-            0xff00cc00, // green
-            0xffcccc00, // yellow
-            0xff0000cc, // blue
-            0xffcc00cc, // magenta
-            0xff00cccc, // cyan
-            0xffcccccc, // "white"/light gray -- is overridden by constructor
-            0xff666666, // bright black/dark gray
-            0xffff0000, // red
-            0xff00ff00, // green
-            0xffffff00, // yellow
-            0xff0000ff, // blue
-            0xffff00ff, // magenta
-            0xff00ffff, // cyan
+            0xffee7d7d, // Red
+            0xff7dee7d, // green
+            0xffeeee7d, // yellow
+            0xff7d7dee, // blue
+            0xffee7dee, // magenta
+            0xff7deeee, // cyan
+            0xffeeeeee, // "white"/light gray -- is overridden by constructor
+            0xff7d7d7d, // bright black/dark gray
+            0xffff8d8d, // red
+            0xff8dff8d, // green
+            0xffffff8d, // yellow
+            0xff8d8dff, // blue
+            0xffff8dff, // magenta
+            0xff8dffff, // cyan
             0xffffffff  // white
     };
     protected int[] mBackPaint = {
             0xff000000, // Black -- is overridden by constructor
-            0xffcc0000, // Red
-            0xff00cc00, // green
-            0xffcccc00, // yellow
-            0xff0000cc, // blue
-            0xffff00cc, // magenta
-            0xff00cccc, // cyan
+            0xffee7d7d, // Red
+            0xff7dee7d, // green
+            0xffeeee7d, // yellow
+            0xff7d7dee, // blue
+            0xffff7dee, // magenta
+            0xff7deeee, // cyan
             0xffffffff  // white
     };
     protected final static int mCursorPaint = 0xff808080;

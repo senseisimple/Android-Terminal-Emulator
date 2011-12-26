@@ -40,7 +40,8 @@ public class AndroidCompat {
             }
 
             public static int getEastAsianWidth(char c) {
-                return AndroidCharacter.getEastAsianWidth(c);
+                return 0;
+            	//return AndroidCharacter.getEastAsianWidth(c);
             }
         }
 
